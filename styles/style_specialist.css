@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+}
+.container{
+    width: 63vw;
+}
+a{
+    text-decoration: none;
+}
+.logo{
+    width: 120px;
+    height: 90px;
+}
+
+header{
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    border-bottom: solid 5px #F79900;
+}
+.menu{
+    height: 108px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.menu_logo{
+    max-height: 68px;
+}
+.menu_list{
+    width: 200px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.log_in{
+    display: flex;
+    justify-content: space-between;
+    width: 63px;
+    color: white;
+}
+.log_in:hover{
+    text-decoration: underline;
+    transform: .5s;
+}
+.registration{
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #F79900;
+    padding: 7px 9px 6px 11px;
+    color: #F79900;
+    font-size: 14px;
+    font-weight: 400;
+}
+.registration:hover{
+    background-color: #F79900;
+    color: black;
+    transition: .5s;
+}
+
+.specialist_card{
+    height: 700px;
+    display: flex;
+    justify-content: center;
+}
+.card_title{
+    margin-top: 20px;
+    height: 31px;
+    font-size: 26px;
+    border-bottom: solid 5px #F79900;
+}
+.card_info{
+    margin-top: 20px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.info_img{
+    max-height: 450px;
+    max-width: 350px;
+    border-radius: 50px 0 50px 0;
+}
+.info_description{
+    width: 66%;
+}
+.info_description> p + p{
+    margin-top: 20px;
+}
+.info_description>p{
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 20px;
+}
+.info_description>p>span{
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 26px;
+}
+
+.feedbacks{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.08);
+}
+.feedback{
+    border: solid 3px black;
+    height: 150px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.user{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.user>p{
+    margin-top: 10px;
+    font-weight: 700;
+}
+.user_img{
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+}
+.feedback_text{
+    max-width: 80%;
+}
+.feedbacks_list{
+    list-style: none;
+}
+.feedbacks_list>li{
+    margin-top: 20px;
+}
